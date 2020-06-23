@@ -7,6 +7,7 @@ def using_concat(array, best_array)
  
  def using_insert(array, obj)
   a = %w{ a b c d }
+  a.insert
 a.insert(2, 99)         
 a.insert(-2, 1, 2, 3) 
  end
