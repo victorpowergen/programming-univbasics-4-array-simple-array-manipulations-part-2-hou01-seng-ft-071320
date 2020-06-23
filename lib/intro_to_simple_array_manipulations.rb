@@ -6,7 +6,7 @@ def using_concat(array, best_array)
  end
  
  def using_insert(array, obj)
-   array = array.insert
+   array = array.insert(4, obj)
  array = %w{"Ruby", "JavaScript", "Java", "C#", "Objective C", "C++", "PHP"}
  obj = "Python"
  array = array.insert(4, obj)
