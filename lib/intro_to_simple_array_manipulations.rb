@@ -34,6 +34,6 @@ def using_concat(array, best_array)
 def using_delete_at(array, int)
   array = ["Johnny 5", "R2D2", "Robocop"]
   int = [0, 1, 2]
-  delete_at(int, 2)
+  array.delete_at(int, 2)
 end
    
