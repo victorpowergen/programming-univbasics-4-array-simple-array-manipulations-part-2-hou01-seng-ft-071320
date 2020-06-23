@@ -27,7 +27,7 @@ def using_concat(array, best_array)
    array = ["Josh", "Steven", "Sophie", "Steven", "Amanda", "Steven"]
   
    string = "Steven"
-   string.include = array.delete(string)
+   string.include? = array.delete(string)
   
  end
 
