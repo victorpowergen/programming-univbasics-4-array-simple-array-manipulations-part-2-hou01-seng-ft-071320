@@ -12,3 +12,8 @@ def using_concat(array, best_array)
  array = array.insert(4, obj)
  
  end
+ 
+ def using_uniq(array)
+   array = 
+   
+ end
