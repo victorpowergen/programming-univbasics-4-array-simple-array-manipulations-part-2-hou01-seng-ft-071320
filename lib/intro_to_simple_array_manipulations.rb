@@ -18,7 +18,7 @@ def using_concat(array, best_array)
  end
  
  def using_flatten(array)
-   
+   instruments = ["Saxophone", ["Piano", "Trumpet"], "Violin", "Drums", "Flute"]
    
  end
  
