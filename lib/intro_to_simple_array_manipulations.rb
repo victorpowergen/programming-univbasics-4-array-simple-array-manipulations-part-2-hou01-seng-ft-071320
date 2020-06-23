@@ -18,10 +18,16 @@ def using_concat(array, best_array)
  end
  
  def using_flatten(array)
-   result = []
-   array = ["Saxophone", "Violin", ["Piano", "Trumpet"], "Drums", "Flute"]
-  array.flatten
-  
+  results = []  
+  array.each do |element|    
+    if element.class == Array      
+      element.each {|value| results << value}    
+    else      
+       results << element    
+    end  
+  end 
+  results
+end
   
  end
 
