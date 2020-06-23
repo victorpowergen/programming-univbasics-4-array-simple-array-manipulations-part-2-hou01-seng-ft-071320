@@ -23,8 +23,7 @@ def using_concat(array, best_array)
   array.each do |element|    
     if element.class == Array      
       element.each {|value| new_array << value}    
-    else      
-       new_array << element    
+   p new_array
     end
 
    
