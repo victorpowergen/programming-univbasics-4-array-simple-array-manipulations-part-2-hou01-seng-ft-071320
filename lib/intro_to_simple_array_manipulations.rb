@@ -21,6 +21,7 @@ def using_concat(array, best_array)
     array.flatten
    array = ["Saxophone", "Violin", ["Piano", "Trumpet"], "Drums", "Flute"]
   array.flatten
+  p array
  end
 
    
