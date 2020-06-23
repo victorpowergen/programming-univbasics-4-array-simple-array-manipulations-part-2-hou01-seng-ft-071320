@@ -33,6 +33,7 @@ def using_concat(array, best_array)
  
 def using_delete_at(array, index)
   array = ["Johnny 5", "R2D2", "Robocop"]
-  
+  index = [0, 1, 2]
+  delete
 end
    
