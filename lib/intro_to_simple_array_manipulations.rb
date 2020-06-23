@@ -17,10 +17,10 @@ def using_concat(array, best_array)
    array.uniq
  end
  
- def using_fatten(array, flat)
+ def using_flatten(array, flat)
    array = ["Saxophone", "Violin", ["Piano", "Trumpet"], "Drums", "Flute"]
-   flat = "Piano", "Trumpet"
-  array.fatten
+   flat = ["Piano", "Trumpet"]
+  array.flatten
   
  end
    
