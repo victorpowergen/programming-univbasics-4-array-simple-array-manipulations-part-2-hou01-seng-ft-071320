@@ -19,8 +19,7 @@ def using_concat(array, best_array)
  
  def using_flatten(array)
   new_array = []
-  array = ["Saxophone", ["Piano", "Trumpet"], "Violin", "Drums", "Flute"]
-  array.each do
+  array = ["Saxophone", ["Piano", "Trumpet"], "Violin", "Drums", "Flute"].each 
     array.flatten
     end
 
