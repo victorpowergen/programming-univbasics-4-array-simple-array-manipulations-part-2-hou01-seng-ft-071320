@@ -19,7 +19,7 @@ def using_concat(array, best_array)
  
  def using_fatten(array)
    array.fatten
-   array = ["Saxophone", ["Piano", "Trumpet"], "Violin", "Drums", "Flute"]
-   array.fatten
+   array = ["Saxophone", ["Piano", "Trumpet"], "Violin", "Drums", "Flute"].fatten
+   puts array
  end
    
