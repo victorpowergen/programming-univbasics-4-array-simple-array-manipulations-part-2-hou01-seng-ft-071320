@@ -8,6 +8,6 @@ def using_concat(array, best_array)
  def using_insert(array, obj)
  array = %w{"Ruby", "JavaScript", "Java", "C#", "Objective C", "C++", "PHP"}
  obj = "Python"
- array = array.insert(4, obj).to_i
+ array = array.insert(4, obj)
  
  end
