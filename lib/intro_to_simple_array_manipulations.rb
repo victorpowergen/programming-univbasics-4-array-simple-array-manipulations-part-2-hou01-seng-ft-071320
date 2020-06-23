@@ -7,4 +7,7 @@ def using_concat(array, best_array)
  
  def using_insert(array, element)
    array.insert(element)
+   array = ["ruby", "python", "php", "java"]
+   element = ["r"]
+   array.insert(element)
  end
