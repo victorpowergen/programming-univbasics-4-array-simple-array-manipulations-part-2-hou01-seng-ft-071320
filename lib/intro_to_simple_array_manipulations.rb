@@ -20,10 +20,8 @@ def using_concat(array, best_array)
  def using_flatten(array)
   new_array = []
   array = ["Saxophone", ["Piano", "Trumpet"], "Violin", "Drums", "Flute"]
-  array.each do |element|    
-    if element.class == Array      
-      element.each {|value| new_array << value}    
-   p new_array
+  array.each do
+    array.flatten
     end
 
    
