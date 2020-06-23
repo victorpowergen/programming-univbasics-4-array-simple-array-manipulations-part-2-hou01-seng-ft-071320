@@ -20,7 +20,7 @@ def using_concat(array, best_array)
  def using_flatten(array)
     array.itself
    array = ["Saxophone", "Violin", ["Piano", "Trumpet"], "Drums", "Flute"]
-  array.flatten(&: itself)
+  array.flatten
   
   
  end
