@@ -25,7 +25,6 @@ def using_concat(array, best_array)
     else      
        results << element    
     end  
-  end 
   results
 end
   
