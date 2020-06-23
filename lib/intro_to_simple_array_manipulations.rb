@@ -5,9 +5,9 @@ def using_concat(array, best_array)
  array.concat(best_array)
  end
  
- def using_insert(array, obj)
+ def using_insert(index, obj)
   a = %w{ a b c d }
-  a.insert(array, obj)
+  a.insert(index, obj)
 a.insert(2, 99)         
 a.insert(-2, 1, 2, 3) 
  end
