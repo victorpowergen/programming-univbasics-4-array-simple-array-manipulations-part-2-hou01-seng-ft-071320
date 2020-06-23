@@ -19,7 +19,7 @@ def using_concat(array, best_array)
  
  def using_flatten(array)
    array = ["Saxophone", ["Piano", "Trumpet"], "Violin", "Drums", "Flute"]
-   new_array = array.flatten
+   new_array = array.flatten.to_s
    
  end
  
