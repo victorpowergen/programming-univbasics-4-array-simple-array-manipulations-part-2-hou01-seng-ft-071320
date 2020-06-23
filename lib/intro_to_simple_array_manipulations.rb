@@ -5,9 +5,8 @@ def using_concat(array, best_array)
  array.concat(best_array)
  end
  
- def using_insert(array, element)
-   array.insert([4], element)
-   array = ["ruby", "python", "php", "java"]
-   element = ["r"]
-   array.insert([4], element)
+ def using_insert(array, obj)
+  a = %w{ a b c d }
+a.insert(2, 99)         
+a.insert(-2, 1, 2, 3) 
  end
