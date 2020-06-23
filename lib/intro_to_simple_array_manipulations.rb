@@ -26,7 +26,7 @@ def using_concat(array, best_array)
     else      
        new_array << element    
     end  
-  results
+  new_array
 end
   
 
