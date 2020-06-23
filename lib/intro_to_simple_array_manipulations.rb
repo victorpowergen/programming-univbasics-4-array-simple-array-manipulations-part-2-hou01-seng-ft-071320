@@ -25,9 +25,6 @@ def using_concat(array, best_array)
       element.each {|value| new_array << value}    
     else      
        new_array << element    
-    end  
-  new_array
-end
-  
+    end
 
    
