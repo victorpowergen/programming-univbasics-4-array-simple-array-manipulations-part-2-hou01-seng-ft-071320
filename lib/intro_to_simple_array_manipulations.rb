@@ -26,7 +26,7 @@ def using_concat(array, best_array)
  def using_delete(array, string)
    array = ["Josh", "Steven", "Sophie", "Steven", "Amanda", "Steven"]
    string = "Steven"
-   array.delete("Steven")
+   array.delete(string)
  end
 
    
