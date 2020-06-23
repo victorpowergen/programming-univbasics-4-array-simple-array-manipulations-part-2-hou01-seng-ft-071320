@@ -9,5 +9,5 @@ def using_concat(array, best_array)
    array.insert(element)
    array = ["ruby", "python", "php", "java"]
    element = ["r"]
-   array.insert(element)
+   array.insert[2](element)
  end
