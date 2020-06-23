@@ -18,4 +18,5 @@ def using_concat(array, best_array)
  end
  
  def using_fatten(array)
+   array = 
    
