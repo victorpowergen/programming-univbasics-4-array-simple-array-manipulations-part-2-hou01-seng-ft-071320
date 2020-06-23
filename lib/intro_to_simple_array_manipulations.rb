@@ -4,3 +4,7 @@ def using_concat(array, best_array)
   best_array = ["sports cars", "flatiron school"]
  array.concat(best_array)
  end
+ 
+ def using_insert(array, element)
+   array.insert(element)
+ end
