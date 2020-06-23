@@ -18,6 +18,9 @@ def using_concat(array, best_array)
  end
  
  def using_flatten(array)
+   
+   
+ end
  
 
    
