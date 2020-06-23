@@ -25,9 +25,9 @@ def using_concat(array, best_array)
  
  def using_delete(array, string)
    array = ["Josh", "Steven", "Sophie", "Steven", "Amanda", "Steven"]
-   string = "Steven"
+   string = "Steven", "Steven", "Steven"
    array.delete(string)
-   array.uniq
+  
  end
 
    
