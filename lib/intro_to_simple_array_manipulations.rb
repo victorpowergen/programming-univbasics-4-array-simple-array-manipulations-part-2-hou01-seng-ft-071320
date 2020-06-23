@@ -14,6 +14,7 @@ def using_concat(array, best_array)
  end
  
  def using_uniq(array)
-   array = 
+   array = ["Pixie", "Bob", "Mohawk", "Crew Cut", "Linka", "Wheeler", "Bob"]
+   new_array = array.uniq(array)
    
  end
