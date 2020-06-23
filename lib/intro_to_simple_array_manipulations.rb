@@ -17,8 +17,9 @@ def using_concat(array, best_array)
    array.uniq
  end
  
- def using_fatten(array)
+ def using_fatten(array, flat)
    array = ["Saxophone", "Violin", ["Piano", "Trumpet"], "Drums", "Flute"]
+   flat = "Piano", "Trumpet"
   array.fatten
   
  end
